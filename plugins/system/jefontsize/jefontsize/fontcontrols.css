@@ -1,0 +1,68 @@
+div#accessibility-links { 
+	height: 40px;
+	width: 100%;
+	top: 0px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: right;
+	padding:10px 70px 0 0;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+div#accessibility-links{ margin:0 auto;}
+div#accessibility-links label{ vertical-align:top; display:inline-block;}
+div#accessibility-links input{ display:inline-block; height:auto;}
+}
+div#accessibility-links label {
+	color: #333
+	font-size: 1.125em;
+    margin: 0 0.2em;
+	margin-top: 5px;
+	margin-left: 15px;
+}
+#accessibility-links label,
+#accessibility-links input {
+	float: right;
+
+}
+
+#fr_increase
+{
+margin-right:12px !important;	
+}
+#fr_contrast
+{
+margin-right:10px !important;	
+}
+
+
+div#accessibility-links input {
+	border: none !important;
+	color: red;
+	font-weight: bold;
+	height: 30px;
+	padding: 0 5px;
+	width: 30px;
+	cursor: pointer;
+/*	margin:0 0.5em 0 0.5em;
+*/	text-align:left;
+}
+
+div#accessibility-links input#fr_decrease {
+	background: url('images/acc_diminuisci.png') no-repeat
+}
+
+
+div#accessibility-links input#fr_increase {
+	background: url('images/acc_aumenta.png') no-repeat right 0px;
+}
+
+div#accessibility-links input#fr_contrast {
+	background: url('images/acc_contrasto.png') no-repeat right 0px;
+}
+
+div#accessibility-links input#fr_reset {
+	background: url('images/acc_reset.png') no-repeat right 0px;
+	
+}

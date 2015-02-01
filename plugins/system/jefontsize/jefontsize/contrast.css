@@ -1,0 +1,105 @@
+body.blackred,
+body.blackred .body .container{
+	background-color: #111 !important;
+	color:#fff !important;
+
+}
+body.blackred .well {
+	background-color: #111 !important;
+}
+body.blackred a:link,body.blackred a:visited,body.blackred h3,body.blackred h2
+	{
+	color: #ffff00;
+}
+
+body.blackred #main a:link,body.blackred #main a:visited,body.blackred #main h3,body.blackred #main h2,body.blackred #fontsize p a:link, body.blackred #fontsize p a:visited,body.blackred #fontsize h3,body.blackred .article-info
+{
+	color: #fff;
+}
+
+body.blackred table td,body.blackred span, body.blackred #main .blog h1, body.blackred #main .blog-featured h1 {
+	color: #fff;
+}
+
+body.blackred #breadcrumbs span {
+	color: #fff;
+}
+body.blackred #nav form{
+	color: #ffff00;
+} 
+body.blackred #fr_increase
+{
+	
+	
+}
+
+
+body.blackred input#fr_decrease {
+	background: url('images/acc_diminuisci-white.png') no-repeat right 0px !important;
+}
+
+
+body.blackred input#fr_increase {
+	background: url('images/acc_aumenta-white.png') no-repeat right 0px !important;
+}
+
+body.blackred input#fr_contrast {
+	background: url('images/acc_contrasto-white.png') no-repeat right 0px !important;
+}
+body.blackred input#fr_reset {
+	background: url('images/acc_reset-white.png') no-repeat right 0px !important;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** Block styles */
+body.blackred div#contentarea,body.blackred div#header,body.blackred div#area div.module_menu div,body.blackred div#area div.module_menu ul
+	{
+	background: black;
+	background-color: #111;
+	border: 1px solid #EEE;
+}
+
+body.blackred div.items-row {
+	background: black;
+	background-color: #111;
+	color: #ffff00;
+	border: 1px solid #EEE;
+}
+
+body.blackred div.items-row a:link,body.blackred div.items-row a:visited
+	{
+	background: black;
+	background-color: #111;
+	color: #ffff00;
+	border: 1px solid #EEE;
+}
+
+body.blackred div#accessibility-links label {
+	color: #fff;
+}
+
+body.blackred ul.menu{ background:none; border:0; list-style:none;}
+body.blackred ul.menu li{ border:0;}
+body.blackred ul.menu li.active a:link, body.blackred ul.menu li.active a:visited, body.blackred ul.menu li a:link, body.blackred ul.menu li a:visited{ color:#ffff00; background:none;}
+body.blackred #nav h3{ border:0;}
+body.blackred #main .blog h1, body.blackred #main .blog-featured h1{ color:#FCBB78; border-top:0; border-bottom:1px solid #FCBB78;}
+body.blackred #all { color:#fff;}
+body.blackred ul.menu li a:hover{ background:none;}
+body.blackred input.button, body.blackred button.button, button.validate, .pagenav li a{  background: none repeat scroll 0 0 #FBA44B !important;
+    border: 1px solid #FFFFFF !important;
+    color: #000000 !important;}

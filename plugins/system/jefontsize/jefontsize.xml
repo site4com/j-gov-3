@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="system" method="upgrade">
+	<name>System - JE Font size</name>
+	<author>Hardik Mistry</author>
+	<creationDate>10/10/2013</creationDate>
+	<copyright>Copyright (C) 2009 - 2011 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU/GPL</license>
+	<authorEmail>emailtohardik@gmail.com</authorEmail>
+	<authorUrl>www.joomlaextensions.co.in</authorUrl>
+	<version>1.0</version>
+	<description>Access Je Font size plugin</description>
+	<files>
+		<filename plugin="jefontsize">jefontsize.php</filename>
+		<filename>index.html</filename>
+		<folder>jefontsize</folder> 
+	</files>
+	
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="max_font" type="list" default="150" label="Max Font Size" description="Max Font Size">
+					<option value="100">100</option>
+					<option value="110">110</option>
+					<option value="120">120</option>
+					<option value="130">130</option>
+					<option value="140">140</option>
+					<option value="150">150</option>
+					<option value="160">150</option>
+					<option value="170">170</option>
+					<option value="180">180</option>
+					<option value="190">190</option>
+					<option value="200">200</option>
+				</field>
+				<field name="min_font" type="list" default="50" label="Min Font Size" description="Min Font Size">
+					<option value="20">20</option>
+					<option value="30">30</option>
+					<option value="40">40</option>
+					<option value="50">50</option>
+					<option value="60">60</option>
+					<option value="70">70</option>
+					<option value="80">80</option>
+					<option value="90">90</option>
+					<option value="100">100</option> 
+				</field>
+				<field name="default_fontsize" type="text" default="100" label="Default Font Size" description="Default Font Size"></field>
+				<field name="contrast" type="radio" default="2" label="High Contrast Enable" description="High Contrast Enable">
+					<option value="2">Yes</option> 
+					<option value="1">No</option>
+				</field>
+				<field name="contrast_classname" type="text" default="blackred" label="Css Class" description="Css Class"></field> 
+				<field name="decrease_key" type="text" default="D" label="Access Decrease Key " description="Access Decrease Key"></field>
+				<field name="increase_key" type="text" default="I" label="Access Increase Key" description="Access Increase Key"></field>
+				<field name="contrast_key" type="text" default="C" label="Access contrast Key" description="Access contrast Key"></field>
+				<field name="reset_key" type="text" default="R" label="Access Reset Key" description="Access Reset Key"></field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
