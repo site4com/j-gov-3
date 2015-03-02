@@ -688,9 +688,9 @@ class JMicrodata
 	/**
 	 * Return the expected display type of the [normal|nested|meta]
 	 * In wich way to display the Property:
-	 * normal -> itemprop="name"
-	 * nested -> itemprop="director" itemscope itemtype="http://schema.org/Person"
-	 * meta   -> <meta itemprop="datePublished" content="1991-05-01">
+	 * normal -> 
+	 * nested ->  itemscope 
+	 * meta   -> <meta  content="1991-05-01">
 	 *
 	 * @param   string  $type      The Type where to find the Property
 	 * @param   string  $property  The Property to process

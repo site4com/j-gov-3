@@ -133,7 +133,8 @@ else
 	<div class="body">
 		<div class="container<?php echo ($params->get('fluidContainer') ? '-fluid' : ''); ?>">
 			<!-- Header -->
-			<header class="header" role="banner">
+			
+			<div class="header"  role="banner">
 				<div class="header-inner clearfix">
 					<a class="brand pull-left" href="<?php echo $this->baseurl; ?>">
 						<?php echo $logo; ?>
@@ -145,7 +146,8 @@ else
 						<jdoc:include type="modules" name="position-0" style="none" />
 					</div>
 				</div>
-			</header>
+			</div>
+			
 			<?php if ($this->countModules('position-1')) : ?>
 				<nav class="navigation" role="navigation">
 					<jdoc:include type="modules" name="position-1" style="none" />
@@ -162,14 +164,14 @@ else
 					</div>
 					<!-- End Sidebar -->
 				<?php endif; ?>
-				<main id="content" role="main" class="<?php echo $span; ?>">
+				<div id="content" role="main" class="<?php echo $span; ?>">
 					<!-- Begin Content -->
 					<jdoc:include type="modules" name="position-3" style="xhtml" />
 					<jdoc:include type="message" />
 					<jdoc:include type="component" />
 					<jdoc:include type="modules" name="position-2" style="none" />
 					<!-- End Content -->
-				</main>
+				</div>
 				<?php if ($this->countModules('position-7')) : ?>
 					<div id="aside" class="span3">
 						<!-- Begin Right Sidebar -->
