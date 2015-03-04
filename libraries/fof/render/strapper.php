@@ -227,7 +227,7 @@ ENDJAVASCRIPT;
 
 					echo ' class="' . $class . '">';
 
-					echo '<a class="dropdown-toggle" data-toggle="dropdown" href="#">';
+					echo '<a class="dropdown-toggle data-dropdown" href="#">';
 
 					if ($link['icon'])
 					{

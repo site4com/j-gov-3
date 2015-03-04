@@ -29,7 +29,7 @@ class FOFFormHeaderFieldsearchable extends FOFFormHeaderField
 		$filterclass = $this->element['filterclass'] ? ' class="' . (string) $this->element['filterclass'] . '"' : '';
 		$placeholder = $this->element['placeholder'] ? $this->element['placeholder'] : $this->getLabel();
 		$name        = $this->element['searchfieldname'] ? $this->element['searchfieldname'] : $this->name;
-		$placeholder = ' placeholder="' . JText::_($placeholder) . '"';
+		$placeholder = '';
 
 		if ($this->element['searchfieldname'])
 		{

@@ -247,7 +247,7 @@ class JFormFieldColor extends JFormField
 			$class        = ' class="' . trim('minicolors ' . $class) . '"';
 			$control      = $control ? ' data-control="' . $control . '"' : '';
 			$readonly     = $this->readonly ? ' readonly' : '';
-			$hint         = $hint ? ' placeholder="' . $hint . '"' : ' placeholder="#rrggbb"';
+			$hint         = '';
 			$autocomplete = !$this->autocomplete ? ' autocomplete="off"' : '';
 
 			// Including fallback code for HTML5 non supported browsers.
