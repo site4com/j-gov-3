@@ -164,7 +164,7 @@ else
 					</div>
 					<!-- End Sidebar -->
 				<?php endif; ?>
-				<div id="content" role="main" class="<?php echo $span; ?>">
+				<div id="content" class="<?php echo $span; ?>">
 					<!-- Begin Content -->
 					<jdoc:include type="modules" name="position-3" style="xhtml" />
 					<jdoc:include type="message" />
@@ -183,7 +183,7 @@ else
 		</div>
 	</div>
 	<!-- Footer -->
-	<footer class="footer" role="contentinfo">
+	<div class="footer" >
 		<div class="container<?php echo ($params->get('fluidContainer') ? '-fluid' : ''); ?>">
 			<hr />
 			<jdoc:include type="modules" name="footer" style="none" />
@@ -196,7 +196,7 @@ else
 				&copy; <?php echo date('Y'); ?> <?php echo $sitename; ?>
 			</p>
 		</div>
-	</footer>
+	</div>
 	<jdoc:include type="modules" name="debug" style="none" />
 </body>
 </html>
