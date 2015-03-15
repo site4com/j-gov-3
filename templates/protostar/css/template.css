@@ -7426,3 +7426,18 @@ code {
 	font-weight: bold;
 	padding: 1px 4px;
 }
+
+
+.print-icon,
+.email-icon,
+.edit-icon {
+	padding:6px !important;
+}
+
+.print-icon a,
+.email-icon a,
+.edit-icon a{
+	padding: 8px 12px;
+
+	width: 99px;
+}
