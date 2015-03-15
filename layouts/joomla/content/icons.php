@@ -22,13 +22,13 @@ $canEdit = $displayData['params']->get('access-edit');
 				<?php // Note the actions class is deprecated. Use dropdown-menu instead. ?>
 				
 					<?php if ($displayData['params']->get('show_print_icon')) : ?>
-						<button class="btn btn-default print-icon"> <?php echo JHtml::_('icon.print_popup', $displayData['item'], $displayData['params']); ?> </button>
+						<div class="btn btn-default print-icon"> <?php echo JHtml::_('icon.print_popup', $displayData['item'], $displayData['params']); ?> </div>
 					<?php endif; ?>
 					<?php if ($displayData['params']->get('show_email_icon')) : ?>
-						<button class="btn btn-default email-icon"> <?php echo JHtml::_('icon.email', $displayData['item'], $displayData['params']); ?> </button>
+						<div class="btn btn-default email-icon"> <?php echo JHtml::_('icon.email', $displayData['item'], $displayData['params']); ?> </div>
 					<?php endif; ?>
 					<?php if ($canEdit) : ?>
-						<button class="btn btn-default edit-icon"> <?php echo JHtml::_('icon.edit', $displayData['item'], $displayData['params']); ?> </button>
+						<div class="btn btn-default edit-icon"> <?php echo JHtml::_('icon.edit', $displayData['item'], $displayData['params']); ?> </div>
 					<?php endif; ?>
 				
 			</div>
