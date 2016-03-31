@@ -22,7 +22,7 @@
 6- What are the limits of J!Gov?
 	* J!Gov sites can be extended in functionalities with Extensions that you can create (or download) to suite your needs.
 	* There are lots of ready made extensions that you can download and install.
-	* See the J!Gov Extensions Directory (J!GOV-ED): http://www.jgov.net/en/cat_parent.html
+	* See the J!Gov Extensions Directory (J!GOV-ED): http://www.jgov.net/en/apps.html
 
 7- Is it easy to change the layout display?
 	* The layout is controlled by templates that you can edit.
@@ -42,9 +42,8 @@
 	* FAQ Frequently Asked Questions: http://www.jgov.net/en/download-jgov.html
 	* Find the information you need: http://docs.joomla.org/Start_here
 	* Find help and other users: https://www.joomla.org/about-joomla/create-and-share.html
-	* Post questions at our forums: http://www.jgov.net/en/Index.html
+	* Post questions at our forums: http://www.jgov.net/en/forum.html
 
 Copyright:
-	* Copyright (C) 2015 - 2024 ALESSANDRO RONDA - C2 SRL. All rights reserved.
+	* Copyright (C) 2015 Alessandro Ronda, Nguyen Van Hiep, C2 SRL. All rights reserved.
 	* Distributed under the GNU General Public License version 2 or later
-
